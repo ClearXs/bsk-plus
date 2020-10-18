@@ -1,0 +1,51 @@
+/*.iml
+/*.ipr
+/*.iws
+/.classpath
+/.factorypath
+/.idea
+/.project
+/.settings
+/package-lock.json
+/nb*
+/release.properties
+
+# 移除target文件
+/target
+/bsk-admin/target
+/bsk-api/target
+/bsk-cache/target
+/bsk-common/target
+/bsk-sys/target
+/bsk-security/target
+
+
+# These are needed if running in IDE without properties set
+/ibderby
+derby.log
+/bin/
+.mvn/wrapper/maven-wrapper.jar
+.sts4-cache/
+
+# ui提交部分移除
+/bsk-ui/node_modules
+/bsk-ui/.pnp
+/bsk-ui/.pnp.js
+/bsk-ui/package-lock.json
+
+# testing
+/bsk-ui/coverage
+
+# production
+/bsk-ui/build
+
+# misc
+/bsk-ui/.DS_Store
+/bsk-ui/.env.local
+/bsk-ui/.env.development.local
+/bsk-ui/.env.test.local
+/bsk-ui/.env.production.local
+
+/bsk-ui/npm-debug.log*
+/bsk-ui/yarn-debug.log*
+/bsk-ui/yarn-error.log*

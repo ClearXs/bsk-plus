@@ -1,0 +1,66 @@
+.ant-layout-header {
+    background-color: #ffffff;
+}
+
+.site-layout-content {
+    background-color: #ffffff;
+}
+
+.site-layout-foot {
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    min-height: 72px;
+}
+
+.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-horizontal > .ant-menu-submenu {
+  border-bottom: none;
+}
+
+.ant-menu-horizontal > .ant-menu-item-active,
+.ant-menu-horizontal > .ant-menu-item-open,
+.ant-menu-horizontal > .ant-menu-item-selected,
+.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-submenu-active,
+.ant-menu-horizontal > .ant-menu-submenu-open,
+.ant-menu-horizontal > .ant-menu-submenu-selected,
+.ant-menu-horizontal > .ant-menu-submenu:hover {
+  border-bottom: none;
+}
+
+.ant-layout-footer {
+    background-color: #ffffff;
+}
+
+.bsk-menu {
+    float: right;
+
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.trigger:hover {
+    color: #1890ff;
+}
+  
+.logo {
+    height: 32px;
+    color: #ffffff;
+    margin: 16px;
+    font-family: cursive;
+    font-size: 16px;
+    margin-left: 20px;
+
+}
+  
+.site-layout .site-layout-background {
+    background: #fff;
+}
